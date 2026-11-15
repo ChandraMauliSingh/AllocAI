@@ -1,0 +1,4513 @@
+[
+    {
+        "student_id": "STU001",
+        "name": "Student 1",
+        "enrolled_courses": [
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU002",
+        "name": "Student 2",
+        "enrolled_courses": [
+            "PH101",
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU003",
+        "name": "Student 3",
+        "enrolled_courses": [
+            "MA101",
+            "CS101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU004",
+        "name": "Student 4",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU005",
+        "name": "Student 5",
+        "enrolled_courses": [
+            "MA101",
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU006",
+        "name": "Student 6",
+        "enrolled_courses": [
+            "EE101",
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU007",
+        "name": "Student 7",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU008",
+        "name": "Student 8",
+        "enrolled_courses": [
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU009",
+        "name": "Student 9",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU010",
+        "name": "Student 10",
+        "enrolled_courses": [
+            "CS101",
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU011",
+        "name": "Student 11",
+        "enrolled_courses": [
+            "CS102",
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU012",
+        "name": "Student 12",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU013",
+        "name": "Student 13",
+        "enrolled_courses": [
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU014",
+        "name": "Student 14",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU015",
+        "name": "Student 15",
+        "enrolled_courses": [
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU016",
+        "name": "Student 16",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU017",
+        "name": "Student 17",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU018",
+        "name": "Student 18",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU019",
+        "name": "Student 19",
+        "enrolled_courses": [
+            "MA101",
+            "CS101",
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU020",
+        "name": "Student 20",
+        "enrolled_courses": [
+            "CS101",
+            "EE101",
+            "CS102",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU021",
+        "name": "Student 21",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU022",
+        "name": "Student 22",
+        "enrolled_courses": [
+            "MA101",
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU023",
+        "name": "Student 23",
+        "enrolled_courses": [
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU024",
+        "name": "Student 24",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU025",
+        "name": "Student 25",
+        "enrolled_courses": [
+            "MA101",
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU026",
+        "name": "Student 26",
+        "enrolled_courses": [
+            "MA101",
+            "EE101",
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU027",
+        "name": "Student 27",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU028",
+        "name": "Student 28",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU029",
+        "name": "Student 29",
+        "enrolled_courses": [
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU030",
+        "name": "Student 30",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU031",
+        "name": "Student 31",
+        "enrolled_courses": [
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU032",
+        "name": "Student 32",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU033",
+        "name": "Student 33",
+        "enrolled_courses": [
+            "CS102",
+            "HU101",
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU034",
+        "name": "Student 34",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU035",
+        "name": "Student 35",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "PH101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU036",
+        "name": "Student 36",
+        "enrolled_courses": [
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU037",
+        "name": "Student 37",
+        "enrolled_courses": [
+            "MA101",
+            "CS102",
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU038",
+        "name": "Student 38",
+        "enrolled_courses": [
+            "PH101",
+            "CS102",
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU039",
+        "name": "Student 39",
+        "enrolled_courses": [
+            "CS101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU040",
+        "name": "Student 40",
+        "enrolled_courses": [
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU041",
+        "name": "Student 41",
+        "enrolled_courses": [
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU042",
+        "name": "Student 42",
+        "enrolled_courses": [
+            "PH101",
+            "MA101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU043",
+        "name": "Student 43",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU044",
+        "name": "Student 44",
+        "enrolled_courses": [
+            "MA101",
+            "HU101",
+            "CS102",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU045",
+        "name": "Student 45",
+        "enrolled_courses": [
+            "PH101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU046",
+        "name": "Student 46",
+        "enrolled_courses": [
+            "EE101",
+            "MA101",
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU047",
+        "name": "Student 47",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU048",
+        "name": "Student 48",
+        "enrolled_courses": [
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU049",
+        "name": "Student 49",
+        "enrolled_courses": [
+            "HU101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU050",
+        "name": "Student 50",
+        "enrolled_courses": [
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU051",
+        "name": "Student 51",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU052",
+        "name": "Student 52",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "EE101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU053",
+        "name": "Student 53",
+        "enrolled_courses": [
+            "HU101",
+            "CS102",
+            "CS101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU054",
+        "name": "Student 54",
+        "enrolled_courses": [
+            "CS102",
+            "MA101",
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU055",
+        "name": "Student 55",
+        "enrolled_courses": [
+            "EE101",
+            "HU101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU056",
+        "name": "Student 56",
+        "enrolled_courses": [
+            "EE101",
+            "CS101",
+            "HU101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU057",
+        "name": "Student 57",
+        "enrolled_courses": [
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU058",
+        "name": "Student 58",
+        "enrolled_courses": [
+            "PH101",
+            "CS102",
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU059",
+        "name": "Student 59",
+        "enrolled_courses": [
+            "MA101",
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU060",
+        "name": "Student 60",
+        "enrolled_courses": [
+            "CS101",
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU061",
+        "name": "Student 61",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU062",
+        "name": "Student 62",
+        "enrolled_courses": [
+            "CS102",
+            "HU101",
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU063",
+        "name": "Student 63",
+        "enrolled_courses": [
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU064",
+        "name": "Student 64",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU065",
+        "name": "Student 65",
+        "enrolled_courses": [
+            "HU101",
+            "CS101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU066",
+        "name": "Student 66",
+        "enrolled_courses": [
+            "EE101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU067",
+        "name": "Student 67",
+        "enrolled_courses": [
+            "EE101",
+            "MA101",
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU068",
+        "name": "Student 68",
+        "enrolled_courses": [
+            "MA101",
+            "EE101",
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU069",
+        "name": "Student 69",
+        "enrolled_courses": [
+            "PH101",
+            "EE101",
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU070",
+        "name": "Student 70",
+        "enrolled_courses": [
+            "CS102",
+            "HU101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU071",
+        "name": "Student 71",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU072",
+        "name": "Student 72",
+        "enrolled_courses": [
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU073",
+        "name": "Student 73",
+        "enrolled_courses": [
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU074",
+        "name": "Student 74",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU075",
+        "name": "Student 75",
+        "enrolled_courses": [
+            "CS102",
+            "MA101",
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU076",
+        "name": "Student 76",
+        "enrolled_courses": [
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU077",
+        "name": "Student 77",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "CS102",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU078",
+        "name": "Student 78",
+        "enrolled_courses": [
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU079",
+        "name": "Student 79",
+        "enrolled_courses": [
+            "MA101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU080",
+        "name": "Student 80",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU081",
+        "name": "Student 81",
+        "enrolled_courses": [
+            "MA101",
+            "HU101",
+            "CS102",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU082",
+        "name": "Student 82",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU083",
+        "name": "Student 83",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "CS101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU084",
+        "name": "Student 84",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU085",
+        "name": "Student 85",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU086",
+        "name": "Student 86",
+        "enrolled_courses": [
+            "MA101",
+            "CS101",
+            "PH101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU087",
+        "name": "Student 87",
+        "enrolled_courses": [
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU088",
+        "name": "Student 88",
+        "enrolled_courses": [
+            "MA101",
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU089",
+        "name": "Student 89",
+        "enrolled_courses": [
+            "EE101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU090",
+        "name": "Student 90",
+        "enrolled_courses": [
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU091",
+        "name": "Student 91",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU092",
+        "name": "Student 92",
+        "enrolled_courses": [
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU093",
+        "name": "Student 93",
+        "enrolled_courses": [
+            "EE101",
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU094",
+        "name": "Student 94",
+        "enrolled_courses": [
+            "HU101",
+            "CS102",
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU095",
+        "name": "Student 95",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU096",
+        "name": "Student 96",
+        "enrolled_courses": [
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU097",
+        "name": "Student 97",
+        "enrolled_courses": [
+            "CS101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU098",
+        "name": "Student 98",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "PH101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU099",
+        "name": "Student 99",
+        "enrolled_courses": [
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU100",
+        "name": "Student 100",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU101",
+        "name": "Student 101",
+        "enrolled_courses": [
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU102",
+        "name": "Student 102",
+        "enrolled_courses": [
+            "EE101",
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU103",
+        "name": "Student 103",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU104",
+        "name": "Student 104",
+        "enrolled_courses": [
+            "PH101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU105",
+        "name": "Student 105",
+        "enrolled_courses": [
+            "PH101",
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU106",
+        "name": "Student 106",
+        "enrolled_courses": [
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU107",
+        "name": "Student 107",
+        "enrolled_courses": [
+            "MA101",
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU108",
+        "name": "Student 108",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU109",
+        "name": "Student 109",
+        "enrolled_courses": [
+            "MA101",
+            "HU101",
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU110",
+        "name": "Student 110",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU111",
+        "name": "Student 111",
+        "enrolled_courses": [
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU112",
+        "name": "Student 112",
+        "enrolled_courses": [
+            "CS102",
+            "HU101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU113",
+        "name": "Student 113",
+        "enrolled_courses": [
+            "HU101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU114",
+        "name": "Student 114",
+        "enrolled_courses": [
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU115",
+        "name": "Student 115",
+        "enrolled_courses": [
+            "PH101",
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU116",
+        "name": "Student 116",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "CS101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU117",
+        "name": "Student 117",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU118",
+        "name": "Student 118",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU119",
+        "name": "Student 119",
+        "enrolled_courses": [
+            "EE101",
+            "MA101",
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU120",
+        "name": "Student 120",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU121",
+        "name": "Student 121",
+        "enrolled_courses": [
+            "CS101",
+            "CS102",
+            "HU101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU122",
+        "name": "Student 122",
+        "enrolled_courses": [
+            "CS102",
+            "HU101",
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU123",
+        "name": "Student 123",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "MA101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU124",
+        "name": "Student 124",
+        "enrolled_courses": [
+            "CS102",
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU125",
+        "name": "Student 125",
+        "enrolled_courses": [
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU126",
+        "name": "Student 126",
+        "enrolled_courses": [
+            "MA101",
+            "CS102",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU127",
+        "name": "Student 127",
+        "enrolled_courses": [
+            "MA101",
+            "CS102",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU128",
+        "name": "Student 128",
+        "enrolled_courses": [
+            "PH101",
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU129",
+        "name": "Student 129",
+        "enrolled_courses": [
+            "EE101",
+            "MA101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU130",
+        "name": "Student 130",
+        "enrolled_courses": [
+            "PH101",
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU131",
+        "name": "Student 131",
+        "enrolled_courses": [
+            "EE101",
+            "HU101",
+            "CS101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU132",
+        "name": "Student 132",
+        "enrolled_courses": [
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU133",
+        "name": "Student 133",
+        "enrolled_courses": [
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU134",
+        "name": "Student 134",
+        "enrolled_courses": [
+            "PH101",
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU135",
+        "name": "Student 135",
+        "enrolled_courses": [
+            "HU101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU136",
+        "name": "Student 136",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU137",
+        "name": "Student 137",
+        "enrolled_courses": [
+            "MA101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU138",
+        "name": "Student 138",
+        "enrolled_courses": [
+            "PH101",
+            "MA101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU139",
+        "name": "Student 139",
+        "enrolled_courses": [
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU140",
+        "name": "Student 140",
+        "enrolled_courses": [
+            "HU101",
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU141",
+        "name": "Student 141",
+        "enrolled_courses": [
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU142",
+        "name": "Student 142",
+        "enrolled_courses": [
+            "HU101",
+            "PH101",
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU143",
+        "name": "Student 143",
+        "enrolled_courses": [
+            "MA101",
+            "CS101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU144",
+        "name": "Student 144",
+        "enrolled_courses": [
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU145",
+        "name": "Student 145",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU146",
+        "name": "Student 146",
+        "enrolled_courses": [
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU147",
+        "name": "Student 147",
+        "enrolled_courses": [
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU148",
+        "name": "Student 148",
+        "enrolled_courses": [
+            "PH101",
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU149",
+        "name": "Student 149",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU150",
+        "name": "Student 150",
+        "enrolled_courses": [
+            "CS102",
+            "HU101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU151",
+        "name": "Student 151",
+        "enrolled_courses": [
+            "MA101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU152",
+        "name": "Student 152",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU153",
+        "name": "Student 153",
+        "enrolled_courses": [
+            "CS102",
+            "CS101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU154",
+        "name": "Student 154",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU155",
+        "name": "Student 155",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU156",
+        "name": "Student 156",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU157",
+        "name": "Student 157",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU158",
+        "name": "Student 158",
+        "enrolled_courses": [
+            "HU101",
+            "CS102",
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU159",
+        "name": "Student 159",
+        "enrolled_courses": [
+            "PH101",
+            "CS101",
+            "CS102",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU160",
+        "name": "Student 160",
+        "enrolled_courses": [
+            "EE101",
+            "MA101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU161",
+        "name": "Student 161",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "CS101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU162",
+        "name": "Student 162",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU163",
+        "name": "Student 163",
+        "enrolled_courses": [
+            "CS101",
+            "MA101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU164",
+        "name": "Student 164",
+        "enrolled_courses": [
+            "MA101",
+            "CS101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU165",
+        "name": "Student 165",
+        "enrolled_courses": [
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU166",
+        "name": "Student 166",
+        "enrolled_courses": [
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU167",
+        "name": "Student 167",
+        "enrolled_courses": [
+            "EE101",
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU168",
+        "name": "Student 168",
+        "enrolled_courses": [
+            "MA101",
+            "EE101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU169",
+        "name": "Student 169",
+        "enrolled_courses": [
+            "CS101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU170",
+        "name": "Student 170",
+        "enrolled_courses": [
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU171",
+        "name": "Student 171",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU172",
+        "name": "Student 172",
+        "enrolled_courses": [
+            "MA101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU173",
+        "name": "Student 173",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU174",
+        "name": "Student 174",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU175",
+        "name": "Student 175",
+        "enrolled_courses": [
+            "CS101",
+            "CS102",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU176",
+        "name": "Student 176",
+        "enrolled_courses": [
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU177",
+        "name": "Student 177",
+        "enrolled_courses": [
+            "PH101",
+            "EE101",
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU178",
+        "name": "Student 178",
+        "enrolled_courses": [
+            "PH101",
+            "CS102",
+            "HU101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU179",
+        "name": "Student 179",
+        "enrolled_courses": [
+            "CS102",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU180",
+        "name": "Student 180",
+        "enrolled_courses": [
+            "HU101",
+            "PH101",
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU181",
+        "name": "Student 181",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU182",
+        "name": "Student 182",
+        "enrolled_courses": [
+            "CS101",
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU183",
+        "name": "Student 183",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU184",
+        "name": "Student 184",
+        "enrolled_courses": [
+            "HU101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU185",
+        "name": "Student 185",
+        "enrolled_courses": [
+            "PH101",
+            "MA101",
+            "HU101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU186",
+        "name": "Student 186",
+        "enrolled_courses": [
+            "MA101",
+            "HU101",
+            "CS101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU187",
+        "name": "Student 187",
+        "enrolled_courses": [
+            "HU101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU188",
+        "name": "Student 188",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU189",
+        "name": "Student 189",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU190",
+        "name": "Student 190",
+        "enrolled_courses": [
+            "PH101",
+            "CS101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU191",
+        "name": "Student 191",
+        "enrolled_courses": [
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU192",
+        "name": "Student 192",
+        "enrolled_courses": [
+            "EE101",
+            "MA101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU193",
+        "name": "Student 193",
+        "enrolled_courses": [
+            "HU101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU194",
+        "name": "Student 194",
+        "enrolled_courses": [
+            "MA101",
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU195",
+        "name": "Student 195",
+        "enrolled_courses": [
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU196",
+        "name": "Student 196",
+        "enrolled_courses": [
+            "HU101",
+            "CS101",
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU197",
+        "name": "Student 197",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "HU101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU198",
+        "name": "Student 198",
+        "enrolled_courses": [
+            "MA101",
+            "CS102",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU199",
+        "name": "Student 199",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU200",
+        "name": "Student 200",
+        "enrolled_courses": [
+            "CS102",
+            "CS101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU201",
+        "name": "Student 201",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU202",
+        "name": "Student 202",
+        "enrolled_courses": [
+            "CS102",
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU203",
+        "name": "Student 203",
+        "enrolled_courses": [
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU204",
+        "name": "Student 204",
+        "enrolled_courses": [
+            "CS102",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU205",
+        "name": "Student 205",
+        "enrolled_courses": [
+            "EE101",
+            "CS101",
+            "HU101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU206",
+        "name": "Student 206",
+        "enrolled_courses": [
+            "CS101",
+            "MA101",
+            "EE101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU207",
+        "name": "Student 207",
+        "enrolled_courses": [
+            "HU101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU208",
+        "name": "Student 208",
+        "enrolled_courses": [
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU209",
+        "name": "Student 209",
+        "enrolled_courses": [
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU210",
+        "name": "Student 210",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU211",
+        "name": "Student 211",
+        "enrolled_courses": [
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU212",
+        "name": "Student 212",
+        "enrolled_courses": [
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU213",
+        "name": "Student 213",
+        "enrolled_courses": [
+            "EE101",
+            "MA101",
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU214",
+        "name": "Student 214",
+        "enrolled_courses": [
+            "PH101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU215",
+        "name": "Student 215",
+        "enrolled_courses": [
+            "PH101",
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU216",
+        "name": "Student 216",
+        "enrolled_courses": [
+            "PH101",
+            "CS101",
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU217",
+        "name": "Student 217",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU218",
+        "name": "Student 218",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU219",
+        "name": "Student 219",
+        "enrolled_courses": [
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU220",
+        "name": "Student 220",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU221",
+        "name": "Student 221",
+        "enrolled_courses": [
+            "CS102",
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU222",
+        "name": "Student 222",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU223",
+        "name": "Student 223",
+        "enrolled_courses": [
+            "CS101",
+            "PH101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU224",
+        "name": "Student 224",
+        "enrolled_courses": [
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU225",
+        "name": "Student 225",
+        "enrolled_courses": [
+            "CS102",
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU226",
+        "name": "Student 226",
+        "enrolled_courses": [
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU227",
+        "name": "Student 227",
+        "enrolled_courses": [
+            "PH101",
+            "MA101",
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU228",
+        "name": "Student 228",
+        "enrolled_courses": [
+            "MA101",
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU229",
+        "name": "Student 229",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU230",
+        "name": "Student 230",
+        "enrolled_courses": [
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU231",
+        "name": "Student 231",
+        "enrolled_courses": [
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU232",
+        "name": "Student 232",
+        "enrolled_courses": [
+            "PH101",
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU233",
+        "name": "Student 233",
+        "enrolled_courses": [
+            "CS101",
+            "CS102",
+            "HU101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU234",
+        "name": "Student 234",
+        "enrolled_courses": [
+            "MA101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU235",
+        "name": "Student 235",
+        "enrolled_courses": [
+            "CS101",
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU236",
+        "name": "Student 236",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "HU101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU237",
+        "name": "Student 237",
+        "enrolled_courses": [
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU238",
+        "name": "Student 238",
+        "enrolled_courses": [
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU239",
+        "name": "Student 239",
+        "enrolled_courses": [
+            "HU101",
+            "CS101",
+            "CS102",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU240",
+        "name": "Student 240",
+        "enrolled_courses": [
+            "HU101",
+            "PH101",
+            "CS101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU241",
+        "name": "Student 241",
+        "enrolled_courses": [
+            "EE101",
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU242",
+        "name": "Student 242",
+        "enrolled_courses": [
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU243",
+        "name": "Student 243",
+        "enrolled_courses": [
+            "PH101",
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU244",
+        "name": "Student 244",
+        "enrolled_courses": [
+            "CS102",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU245",
+        "name": "Student 245",
+        "enrolled_courses": [
+            "MA101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU246",
+        "name": "Student 246",
+        "enrolled_courses": [
+            "EE101",
+            "HU101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU247",
+        "name": "Student 247",
+        "enrolled_courses": [
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU248",
+        "name": "Student 248",
+        "enrolled_courses": [
+            "PH101",
+            "EE101",
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU249",
+        "name": "Student 249",
+        "enrolled_courses": [
+            "MA101",
+            "PH101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU250",
+        "name": "Student 250",
+        "enrolled_courses": [
+            "PH101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU251",
+        "name": "Student 251",
+        "enrolled_courses": [
+            "EE101",
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU252",
+        "name": "Student 252",
+        "enrolled_courses": [
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU253",
+        "name": "Student 253",
+        "enrolled_courses": [
+            "MA101",
+            "HU101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU254",
+        "name": "Student 254",
+        "enrolled_courses": [
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU255",
+        "name": "Student 255",
+        "enrolled_courses": [
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU256",
+        "name": "Student 256",
+        "enrolled_courses": [
+            "MA101",
+            "CS102",
+            "PH101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU257",
+        "name": "Student 257",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU258",
+        "name": "Student 258",
+        "enrolled_courses": [
+            "CS102",
+            "HU101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU259",
+        "name": "Student 259",
+        "enrolled_courses": [
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU260",
+        "name": "Student 260",
+        "enrolled_courses": [
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU261",
+        "name": "Student 261",
+        "enrolled_courses": [
+            "HU101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU262",
+        "name": "Student 262",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU263",
+        "name": "Student 263",
+        "enrolled_courses": [
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU264",
+        "name": "Student 264",
+        "enrolled_courses": [
+            "CS102",
+            "CS101",
+            "HU101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU265",
+        "name": "Student 265",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU266",
+        "name": "Student 266",
+        "enrolled_courses": [
+            "MA101",
+            "CS102",
+            "CS101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU267",
+        "name": "Student 267",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "HU101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU268",
+        "name": "Student 268",
+        "enrolled_courses": [
+            "CS101",
+            "EE101",
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU269",
+        "name": "Student 269",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU270",
+        "name": "Student 270",
+        "enrolled_courses": [
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU271",
+        "name": "Student 271",
+        "enrolled_courses": [
+            "MA101",
+            "PH101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU272",
+        "name": "Student 272",
+        "enrolled_courses": [
+            "HU101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU273",
+        "name": "Student 273",
+        "enrolled_courses": [
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU274",
+        "name": "Student 274",
+        "enrolled_courses": [
+            "CS101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU275",
+        "name": "Student 275",
+        "enrolled_courses": [
+            "CS102",
+            "CS101",
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU276",
+        "name": "Student 276",
+        "enrolled_courses": [
+            "PH101",
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU277",
+        "name": "Student 277",
+        "enrolled_courses": [
+            "PH101",
+            "CS102",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU278",
+        "name": "Student 278",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "MA101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU279",
+        "name": "Student 279",
+        "enrolled_courses": [
+            "CS101",
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU280",
+        "name": "Student 280",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU281",
+        "name": "Student 281",
+        "enrolled_courses": [
+            "EE101",
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU282",
+        "name": "Student 282",
+        "enrolled_courses": [
+            "MA101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU283",
+        "name": "Student 283",
+        "enrolled_courses": [
+            "HU101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU284",
+        "name": "Student 284",
+        "enrolled_courses": [
+            "HU101",
+            "CS102",
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU285",
+        "name": "Student 285",
+        "enrolled_courses": [
+            "PH101",
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU286",
+        "name": "Student 286",
+        "enrolled_courses": [
+            "HU101",
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU287",
+        "name": "Student 287",
+        "enrolled_courses": [
+            "MA101",
+            "HU101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU288",
+        "name": "Student 288",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU289",
+        "name": "Student 289",
+        "enrolled_courses": [
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU290",
+        "name": "Student 290",
+        "enrolled_courses": [
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU291",
+        "name": "Student 291",
+        "enrolled_courses": [
+            "HU101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU292",
+        "name": "Student 292",
+        "enrolled_courses": [
+            "EE101",
+            "CS101",
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU293",
+        "name": "Student 293",
+        "enrolled_courses": [
+            "MA101",
+            "PH101",
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU294",
+        "name": "Student 294",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "CS102",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU295",
+        "name": "Student 295",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU296",
+        "name": "Student 296",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU297",
+        "name": "Student 297",
+        "enrolled_courses": [
+            "CS101",
+            "PH101",
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU298",
+        "name": "Student 298",
+        "enrolled_courses": [
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU299",
+        "name": "Student 299",
+        "enrolled_courses": [
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU300",
+        "name": "Student 300",
+        "enrolled_courses": [
+            "PH101",
+            "MA101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU301",
+        "name": "Student 301",
+        "enrolled_courses": [
+            "CS102",
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU302",
+        "name": "Student 302",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU303",
+        "name": "Student 303",
+        "enrolled_courses": [
+            "PH101",
+            "EE101",
+            "HU101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU304",
+        "name": "Student 304",
+        "enrolled_courses": [
+            "MA101",
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU305",
+        "name": "Student 305",
+        "enrolled_courses": [
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU306",
+        "name": "Student 306",
+        "enrolled_courses": [
+            "MA101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU307",
+        "name": "Student 307",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU308",
+        "name": "Student 308",
+        "enrolled_courses": [
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU309",
+        "name": "Student 309",
+        "enrolled_courses": [
+            "PH101",
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU310",
+        "name": "Student 310",
+        "enrolled_courses": [
+            "PH101",
+            "CS101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU311",
+        "name": "Student 311",
+        "enrolled_courses": [
+            "CS101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU312",
+        "name": "Student 312",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU313",
+        "name": "Student 313",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU314",
+        "name": "Student 314",
+        "enrolled_courses": [
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU315",
+        "name": "Student 315",
+        "enrolled_courses": [
+            "PH101",
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU316",
+        "name": "Student 316",
+        "enrolled_courses": [
+            "MA101",
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU317",
+        "name": "Student 317",
+        "enrolled_courses": [
+            "CS102",
+            "HU101",
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU318",
+        "name": "Student 318",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU319",
+        "name": "Student 319",
+        "enrolled_courses": [
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU320",
+        "name": "Student 320",
+        "enrolled_courses": [
+            "PH101",
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU321",
+        "name": "Student 321",
+        "enrolled_courses": [
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU322",
+        "name": "Student 322",
+        "enrolled_courses": [
+            "MA101",
+            "EE101",
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU323",
+        "name": "Student 323",
+        "enrolled_courses": [
+            "PH101",
+            "CS101",
+            "CS102",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU324",
+        "name": "Student 324",
+        "enrolled_courses": [
+            "MA101",
+            "EE101",
+            "HU101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU325",
+        "name": "Student 325",
+        "enrolled_courses": [
+            "CS101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU326",
+        "name": "Student 326",
+        "enrolled_courses": [
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU327",
+        "name": "Student 327",
+        "enrolled_courses": [
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU328",
+        "name": "Student 328",
+        "enrolled_courses": [
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU329",
+        "name": "Student 329",
+        "enrolled_courses": [
+            "HU101",
+            "CS102",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU330",
+        "name": "Student 330",
+        "enrolled_courses": [
+            "PH101",
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU331",
+        "name": "Student 331",
+        "enrolled_courses": [
+            "PH101",
+            "HU101",
+            "CS101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU332",
+        "name": "Student 332",
+        "enrolled_courses": [
+            "MA101",
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU333",
+        "name": "Student 333",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU334",
+        "name": "Student 334",
+        "enrolled_courses": [
+            "MA101",
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU335",
+        "name": "Student 335",
+        "enrolled_courses": [
+            "PH101",
+            "HU101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU336",
+        "name": "Student 336",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "CS102",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU337",
+        "name": "Student 337",
+        "enrolled_courses": [
+            "MA101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU338",
+        "name": "Student 338",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU339",
+        "name": "Student 339",
+        "enrolled_courses": [
+            "HU101",
+            "MA101",
+            "CS102",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU340",
+        "name": "Student 340",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU341",
+        "name": "Student 341",
+        "enrolled_courses": [
+            "CS101",
+            "CS102",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU342",
+        "name": "Student 342",
+        "enrolled_courses": [
+            "EE101",
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU343",
+        "name": "Student 343",
+        "enrolled_courses": [
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU344",
+        "name": "Student 344",
+        "enrolled_courses": [
+            "CS102",
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU345",
+        "name": "Student 345",
+        "enrolled_courses": [
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU346",
+        "name": "Student 346",
+        "enrolled_courses": [
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU347",
+        "name": "Student 347",
+        "enrolled_courses": [
+            "HU101",
+            "CS101",
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU348",
+        "name": "Student 348",
+        "enrolled_courses": [
+            "PH101",
+            "EE101",
+            "CS101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU349",
+        "name": "Student 349",
+        "enrolled_courses": [
+            "HU101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU350",
+        "name": "Student 350",
+        "enrolled_courses": [
+            "PH101",
+            "HU101",
+            "CS101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU351",
+        "name": "Student 351",
+        "enrolled_courses": [
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU352",
+        "name": "Student 352",
+        "enrolled_courses": [
+            "CS102",
+            "MA101",
+            "PH101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU353",
+        "name": "Student 353",
+        "enrolled_courses": [
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU354",
+        "name": "Student 354",
+        "enrolled_courses": [
+            "HU101",
+            "CS102",
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU355",
+        "name": "Student 355",
+        "enrolled_courses": [
+            "CS101",
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU356",
+        "name": "Student 356",
+        "enrolled_courses": [
+            "EE101",
+            "CS101",
+            "HU101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU357",
+        "name": "Student 357",
+        "enrolled_courses": [
+            "HU101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU358",
+        "name": "Student 358",
+        "enrolled_courses": [
+            "EE101",
+            "HU101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU359",
+        "name": "Student 359",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU360",
+        "name": "Student 360",
+        "enrolled_courses": [
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU361",
+        "name": "Student 361",
+        "enrolled_courses": [
+            "PH101",
+            "HU101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU362",
+        "name": "Student 362",
+        "enrolled_courses": [
+            "EE101",
+            "MA101",
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU363",
+        "name": "Student 363",
+        "enrolled_courses": [
+            "CS102",
+            "HU101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU364",
+        "name": "Student 364",
+        "enrolled_courses": [
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU365",
+        "name": "Student 365",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "HU101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU366",
+        "name": "Student 366",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU367",
+        "name": "Student 367",
+        "enrolled_courses": [
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU368",
+        "name": "Student 368",
+        "enrolled_courses": [
+            "EE101",
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU369",
+        "name": "Student 369",
+        "enrolled_courses": [
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU370",
+        "name": "Student 370",
+        "enrolled_courses": [
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU371",
+        "name": "Student 371",
+        "enrolled_courses": [
+            "MA101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU372",
+        "name": "Student 372",
+        "enrolled_courses": [
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU373",
+        "name": "Student 373",
+        "enrolled_courses": [
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU374",
+        "name": "Student 374",
+        "enrolled_courses": [
+            "EE101",
+            "HU101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU375",
+        "name": "Student 375",
+        "enrolled_courses": [
+            "MA101",
+            "EE101",
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU376",
+        "name": "Student 376",
+        "enrolled_courses": [
+            "EE101",
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU377",
+        "name": "Student 377",
+        "enrolled_courses": [
+            "CS101",
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU378",
+        "name": "Student 378",
+        "enrolled_courses": [
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU379",
+        "name": "Student 379",
+        "enrolled_courses": [
+            "HU101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU380",
+        "name": "Student 380",
+        "enrolled_courses": [
+            "HU101",
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU381",
+        "name": "Student 381",
+        "enrolled_courses": [
+            "HU101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU382",
+        "name": "Student 382",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU383",
+        "name": "Student 383",
+        "enrolled_courses": [
+            "HU101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU384",
+        "name": "Student 384",
+        "enrolled_courses": [
+            "HU101",
+            "CS102",
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU385",
+        "name": "Student 385",
+        "enrolled_courses": [
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU386",
+        "name": "Student 386",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU387",
+        "name": "Student 387",
+        "enrolled_courses": [
+            "EE101",
+            "HU101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU388",
+        "name": "Student 388",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU389",
+        "name": "Student 389",
+        "enrolled_courses": [
+            "EE101",
+            "CS101",
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU390",
+        "name": "Student 390",
+        "enrolled_courses": [
+            "MA101",
+            "CS101",
+            "HU101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU391",
+        "name": "Student 391",
+        "enrolled_courses": [
+            "PH101",
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU392",
+        "name": "Student 392",
+        "enrolled_courses": [
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU393",
+        "name": "Student 393",
+        "enrolled_courses": [
+            "PH101",
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU394",
+        "name": "Student 394",
+        "enrolled_courses": [
+            "CS101",
+            "PH101",
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU395",
+        "name": "Student 395",
+        "enrolled_courses": [
+            "MA101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU396",
+        "name": "Student 396",
+        "enrolled_courses": [
+            "MA101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU397",
+        "name": "Student 397",
+        "enrolled_courses": [
+            "PH101",
+            "CS102",
+            "EE101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU398",
+        "name": "Student 398",
+        "enrolled_courses": [
+            "EE101",
+            "HU101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU399",
+        "name": "Student 399",
+        "enrolled_courses": [
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU400",
+        "name": "Student 400",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU401",
+        "name": "Student 401",
+        "enrolled_courses": [
+            "CS101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU402",
+        "name": "Student 402",
+        "enrolled_courses": [
+            "HU101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU403",
+        "name": "Student 403",
+        "enrolled_courses": [
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU404",
+        "name": "Student 404",
+        "enrolled_courses": [
+            "HU101",
+            "CS102",
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU405",
+        "name": "Student 405",
+        "enrolled_courses": [
+            "HU101",
+            "CS102",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU406",
+        "name": "Student 406",
+        "enrolled_courses": [
+            "CS101",
+            "MA101",
+            "CS102",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU407",
+        "name": "Student 407",
+        "enrolled_courses": [
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU408",
+        "name": "Student 408",
+        "enrolled_courses": [
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU409",
+        "name": "Student 409",
+        "enrolled_courses": [
+            "PH101",
+            "MA101",
+            "EE101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU410",
+        "name": "Student 410",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU411",
+        "name": "Student 411",
+        "enrolled_courses": [
+            "CS101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU412",
+        "name": "Student 412",
+        "enrolled_courses": [
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU413",
+        "name": "Student 413",
+        "enrolled_courses": [
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU414",
+        "name": "Student 414",
+        "enrolled_courses": [
+            "HU101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU415",
+        "name": "Student 415",
+        "enrolled_courses": [
+            "PH101",
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU416",
+        "name": "Student 416",
+        "enrolled_courses": [
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU417",
+        "name": "Student 417",
+        "enrolled_courses": [
+            "MA101",
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU418",
+        "name": "Student 418",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU419",
+        "name": "Student 419",
+        "enrolled_courses": [
+            "HU101",
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU420",
+        "name": "Student 420",
+        "enrolled_courses": [
+            "HU101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU421",
+        "name": "Student 421",
+        "enrolled_courses": [
+            "EE101",
+            "HU101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU422",
+        "name": "Student 422",
+        "enrolled_courses": [
+            "PH101",
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU423",
+        "name": "Student 423",
+        "enrolled_courses": [
+            "CS102",
+            "CS101",
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU424",
+        "name": "Student 424",
+        "enrolled_courses": [
+            "HU101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU425",
+        "name": "Student 425",
+        "enrolled_courses": [
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU426",
+        "name": "Student 426",
+        "enrolled_courses": [
+            "MA101",
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU427",
+        "name": "Student 427",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU428",
+        "name": "Student 428",
+        "enrolled_courses": [
+            "CS102",
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU429",
+        "name": "Student 429",
+        "enrolled_courses": [
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU430",
+        "name": "Student 430",
+        "enrolled_courses": [
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU431",
+        "name": "Student 431",
+        "enrolled_courses": [
+            "HU101",
+            "CS102",
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU432",
+        "name": "Student 432",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU433",
+        "name": "Student 433",
+        "enrolled_courses": [
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU434",
+        "name": "Student 434",
+        "enrolled_courses": [
+            "MA101",
+            "EE101",
+            "CS101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU435",
+        "name": "Student 435",
+        "enrolled_courses": [
+            "EE101",
+            "MA101",
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU436",
+        "name": "Student 436",
+        "enrolled_courses": [
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU437",
+        "name": "Student 437",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU438",
+        "name": "Student 438",
+        "enrolled_courses": [
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU439",
+        "name": "Student 439",
+        "enrolled_courses": [
+            "CS101",
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU440",
+        "name": "Student 440",
+        "enrolled_courses": [
+            "PH101",
+            "CS101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU441",
+        "name": "Student 441",
+        "enrolled_courses": [
+            "HU101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU442",
+        "name": "Student 442",
+        "enrolled_courses": [
+            "EE101",
+            "CS101",
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU443",
+        "name": "Student 443",
+        "enrolled_courses": [
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU444",
+        "name": "Student 444",
+        "enrolled_courses": [
+            "MA101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU445",
+        "name": "Student 445",
+        "enrolled_courses": [
+            "PH101",
+            "CS102",
+            "HU101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU446",
+        "name": "Student 446",
+        "enrolled_courses": [
+            "HU101",
+            "CS101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU447",
+        "name": "Student 447",
+        "enrolled_courses": [
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU448",
+        "name": "Student 448",
+        "enrolled_courses": [
+            "EE101",
+            "HU101",
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU449",
+        "name": "Student 449",
+        "enrolled_courses": [
+            "CS102",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU450",
+        "name": "Student 450",
+        "enrolled_courses": [
+            "MA101",
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU451",
+        "name": "Student 451",
+        "enrolled_courses": [
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU452",
+        "name": "Student 452",
+        "enrolled_courses": [
+            "HU101",
+            "CS102",
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU453",
+        "name": "Student 453",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU454",
+        "name": "Student 454",
+        "enrolled_courses": [
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU455",
+        "name": "Student 455",
+        "enrolled_courses": [
+            "CS102",
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU456",
+        "name": "Student 456",
+        "enrolled_courses": [
+            "HU101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU457",
+        "name": "Student 457",
+        "enrolled_courses": [
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU458",
+        "name": "Student 458",
+        "enrolled_courses": [
+            "CS101",
+            "PH101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU459",
+        "name": "Student 459",
+        "enrolled_courses": [
+            "PH101",
+            "CS101",
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU460",
+        "name": "Student 460",
+        "enrolled_courses": [
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU461",
+        "name": "Student 461",
+        "enrolled_courses": [
+            "EE101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU462",
+        "name": "Student 462",
+        "enrolled_courses": [
+            "CS101",
+            "CS102",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU463",
+        "name": "Student 463",
+        "enrolled_courses": [
+            "CS101",
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU464",
+        "name": "Student 464",
+        "enrolled_courses": [
+            "CS102",
+            "CS101",
+            "EE101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU465",
+        "name": "Student 465",
+        "enrolled_courses": [
+            "CS102",
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU466",
+        "name": "Student 466",
+        "enrolled_courses": [
+            "HU101",
+            "CS102",
+            "EE101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU467",
+        "name": "Student 467",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU468",
+        "name": "Student 468",
+        "enrolled_courses": [
+            "CS101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU469",
+        "name": "Student 469",
+        "enrolled_courses": [
+            "MA101",
+            "HU101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU470",
+        "name": "Student 470",
+        "enrolled_courses": [
+            "PH101",
+            "HU101",
+            "MA101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU471",
+        "name": "Student 471",
+        "enrolled_courses": [
+            "EE101",
+            "CS102",
+            "HU101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU472",
+        "name": "Student 472",
+        "enrolled_courses": [
+            "PH101",
+            "MA101",
+            "CS102",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU473",
+        "name": "Student 473",
+        "enrolled_courses": [
+            "EE101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU474",
+        "name": "Student 474",
+        "enrolled_courses": [
+            "MA101",
+            "CS102",
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU475",
+        "name": "Student 475",
+        "enrolled_courses": [
+            "EE101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU476",
+        "name": "Student 476",
+        "enrolled_courses": [
+            "MA101",
+            "EE101",
+            "CS102",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU477",
+        "name": "Student 477",
+        "enrolled_courses": [
+            "PH101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU478",
+        "name": "Student 478",
+        "enrolled_courses": [
+            "EE101",
+            "HU101",
+            "MA101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU479",
+        "name": "Student 479",
+        "enrolled_courses": [
+            "MA101",
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU480",
+        "name": "Student 480",
+        "enrolled_courses": [
+            "PH101",
+            "CS102",
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU481",
+        "name": "Student 481",
+        "enrolled_courses": [
+            "CS102",
+            "PH101",
+            "EE101"
+        ]
+    },
+    {
+        "student_id": "STU482",
+        "name": "Student 482",
+        "enrolled_courses": [
+            "EE101",
+            "MA101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU483",
+        "name": "Student 483",
+        "enrolled_courses": [
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU484",
+        "name": "Student 484",
+        "enrolled_courses": [
+            "HU101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU485",
+        "name": "Student 485",
+        "enrolled_courses": [
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU486",
+        "name": "Student 486",
+        "enrolled_courses": [
+            "EE101",
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU487",
+        "name": "Student 487",
+        "enrolled_courses": [
+            "PH101",
+            "CS102",
+            "CS101",
+            "HU101"
+        ]
+    },
+    {
+        "student_id": "STU488",
+        "name": "Student 488",
+        "enrolled_courses": [
+            "EE101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU489",
+        "name": "Student 489",
+        "enrolled_courses": [
+            "PH101",
+            "CS101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU490",
+        "name": "Student 490",
+        "enrolled_courses": [
+            "CS101",
+            "MA101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU491",
+        "name": "Student 491",
+        "enrolled_courses": [
+            "PH101",
+            "HU101",
+            "CS101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU492",
+        "name": "Student 492",
+        "enrolled_courses": [
+            "HU101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU493",
+        "name": "Student 493",
+        "enrolled_courses": [
+            "EE101",
+            "CS101",
+            "PH101"
+        ]
+    },
+    {
+        "student_id": "STU494",
+        "name": "Student 494",
+        "enrolled_courses": [
+            "HU101",
+            "PH101",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU495",
+        "name": "Student 495",
+        "enrolled_courses": [
+            "CS101",
+            "EE101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU496",
+        "name": "Student 496",
+        "enrolled_courses": [
+            "HU101",
+            "PH101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU497",
+        "name": "Student 497",
+        "enrolled_courses": [
+            "HU101",
+            "CS101",
+            "PH101",
+            "CS102"
+        ]
+    },
+    {
+        "student_id": "STU498",
+        "name": "Student 498",
+        "enrolled_courses": [
+            "CS102",
+            "MA101"
+        ]
+    },
+    {
+        "student_id": "STU499",
+        "name": "Student 499",
+        "enrolled_courses": [
+            "EE101",
+            "HU101",
+            "CS101"
+        ]
+    },
+    {
+        "student_id": "STU500",
+        "name": "Student 500",
+        "enrolled_courses": [
+            "CS102",
+            "CS101",
+            "PH101"
+        ]
+    }
+]

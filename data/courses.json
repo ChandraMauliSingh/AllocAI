@@ -1,0 +1,32 @@
+[
+    {
+        "course_id": "CS101",
+        "name": "Introduction to Computer Science",
+        "students_count": 120
+    },
+    {
+        "course_id": "CS102",
+        "name": "Data Structures and Algorithms",
+        "students_count": 110
+    },
+    {
+        "course_id": "MA101",
+        "name": "Linear Algebra & Calculus",
+        "students_count": 150
+    },
+    {
+        "course_id": "PH101",
+        "name": "Engineering Physics",
+        "students_count": 90
+    },
+    {
+        "course_id": "EE101",
+        "name": "Basic Electrical Engineering",
+        "students_count": 100
+    },
+    {
+        "course_id": "HU101",
+        "name": "Professional Communication",
+        "students_count": 130
+    }
+]

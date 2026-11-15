@@ -1,0 +1,45 @@
+{
+    "CS101": {
+        "time_slot": "Slot 6",
+        "assigned_rooms": [
+            "R002"
+        ],
+        "total_students": 120
+    },
+    "CS102": {
+        "time_slot": "Slot 3",
+        "assigned_rooms": [
+            "R016"
+        ],
+        "total_students": 110
+    },
+    "MA101": {
+        "time_slot": "Slot 5",
+        "assigned_rooms": [
+            "R017",
+            "R018"
+        ],
+        "total_students": 150
+    },
+    "PH101": {
+        "time_slot": "Slot 1",
+        "assigned_rooms": [
+            "R017"
+        ],
+        "total_students": 90
+    },
+    "EE101": {
+        "time_slot": "Slot 2",
+        "assigned_rooms": [
+            "R002"
+        ],
+        "total_students": 100
+    },
+    "HU101": {
+        "time_slot": "Slot 4",
+        "assigned_rooms": [
+            "R016"
+        ],
+        "total_students": 130
+    }
+}

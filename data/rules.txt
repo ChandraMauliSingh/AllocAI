@@ -1,0 +1,7 @@
+
+AllocAI Institutional Examination & Invigilation Rules:
+1. Anti-Collusion Seating Rule: No two students enrolled in the same course code may be seated in adjacent seats within the same row of the examination hall.
+2. Slot Clash Rule: A student cannot be assigned two different examinations in the same time slot.
+3. Invigilation Duty Policy: Every faculty member must be assigned between 1 to 3 invigilation duties across the examination schedule, balanced evenly.
+4. Room Capacity Constraint: The total number of students allocated to a room must not exceed its tiered physical capacity.
+5. Special Accommodations: Students with medical or accessibility notes must be assigned to ground-floor rooms with accessible seating.

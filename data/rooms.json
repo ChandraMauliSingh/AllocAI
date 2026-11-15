@@ -1,0 +1,321 @@
+[
+    {
+        "room_id": "R001",
+        "name": "Lecture Hall 1",
+        "row_capacities": [
+            7,
+            9,
+            11,
+            13,
+            15,
+            17
+        ],
+        "capacity": 72,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R002",
+        "name": "Lecture Hall 2",
+        "row_capacities": [
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27
+        ],
+        "capacity": 180,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R003",
+        "name": "Lecture Hall 3",
+        "row_capacities": [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+        ],
+        "capacity": 98,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R004",
+        "name": "Lecture Hall 4",
+        "row_capacities": [
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24,
+            26,
+            28
+        ],
+        "capacity": 190,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R005",
+        "name": "Lecture Hall 5",
+        "row_capacities": [
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22
+        ],
+        "capacity": 112,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R006",
+        "name": "Lecture Hall 6",
+        "row_capacities": [
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+        ],
+        "capacity": 150,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R007",
+        "name": "Lecture Hall 7",
+        "row_capacities": [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+        ],
+        "capacity": 98,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R008",
+        "name": "Lecture Hall 8",
+        "row_capacities": [
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+        ],
+        "capacity": 104,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R009",
+        "name": "Lecture Hall 9",
+        "row_capacities": [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22
+        ],
+        "capacity": 120,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R010",
+        "name": "Lecture Hall 10",
+        "row_capacities": [
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21
+        ],
+        "capacity": 105,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R011",
+        "name": "Lecture Hall 11",
+        "row_capacities": [
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21
+        ],
+        "capacity": 105,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R012",
+        "name": "Lecture Hall 12",
+        "row_capacities": [
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25
+        ],
+        "capacity": 160,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R013",
+        "name": "Lecture Hall 13",
+        "row_capacities": [
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27
+        ],
+        "capacity": 180,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R014",
+        "name": "Lecture Hall 14",
+        "row_capacities": [
+            9,
+            11,
+            13,
+            15,
+            17,
+            19
+        ],
+        "capacity": 84,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R015",
+        "name": "Lecture Hall 15",
+        "row_capacities": [
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18
+        ],
+        "capacity": 84,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R016",
+        "name": "Lecture Hall 16",
+        "row_capacities": [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+        ],
+        "capacity": 144,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R017",
+        "name": "Lecture Hall 17",
+        "row_capacities": [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+        ],
+        "capacity": 144,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R018",
+        "name": "Lecture Hall 18",
+        "row_capacities": [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22
+        ],
+        "capacity": 120,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R019",
+        "name": "Lecture Hall 19",
+        "row_capacities": [
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18
+        ],
+        "capacity": 84,
+        "type": "Tiered Exam Hall"
+    },
+    {
+        "room_id": "R020",
+        "name": "Lecture Hall 20",
+        "row_capacities": [
+            9,
+            11,
+            13,
+            15,
+            17,
+            19
+        ],
+        "capacity": 84,
+        "type": "Tiered Exam Hall"
+    }
+]

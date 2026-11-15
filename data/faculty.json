@@ -1,0 +1,302 @@
+[
+    {
+        "faculty_id": "FAC001",
+        "name": "Prof. Faculty 1",
+        "department": "Electrical",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC002",
+        "name": "Prof. Faculty 2",
+        "department": "Mathematics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC003",
+        "name": "Prof. Faculty 3",
+        "department": "Physics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC004",
+        "name": "Prof. Faculty 4",
+        "department": "Physics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC005",
+        "name": "Prof. Faculty 5",
+        "department": "Humanities",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC006",
+        "name": "Prof. Faculty 6",
+        "department": "Electrical",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC007",
+        "name": "Prof. Faculty 7",
+        "department": "Computer Science",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC008",
+        "name": "Prof. Faculty 8",
+        "department": "Electrical",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC009",
+        "name": "Prof. Faculty 9",
+        "department": "Physics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC010",
+        "name": "Prof. Faculty 10",
+        "department": "Physics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC011",
+        "name": "Prof. Faculty 11",
+        "department": "Electrical",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC012",
+        "name": "Prof. Faculty 12",
+        "department": "Mathematics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC013",
+        "name": "Prof. Faculty 13",
+        "department": "Computer Science",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC014",
+        "name": "Prof. Faculty 14",
+        "department": "Computer Science",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC015",
+        "name": "Prof. Faculty 15",
+        "department": "Electrical",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC016",
+        "name": "Prof. Faculty 16",
+        "department": "Computer Science",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC017",
+        "name": "Prof. Faculty 17",
+        "department": "Electrical",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC018",
+        "name": "Prof. Faculty 18",
+        "department": "Physics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC019",
+        "name": "Prof. Faculty 19",
+        "department": "Humanities",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC020",
+        "name": "Prof. Faculty 20",
+        "department": "Electrical",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC021",
+        "name": "Prof. Faculty 21",
+        "department": "Humanities",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC022",
+        "name": "Prof. Faculty 22",
+        "department": "Humanities",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC023",
+        "name": "Prof. Faculty 23",
+        "department": "Physics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC024",
+        "name": "Prof. Faculty 24",
+        "department": "Physics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC025",
+        "name": "Prof. Faculty 25",
+        "department": "Computer Science",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC026",
+        "name": "Prof. Faculty 26",
+        "department": "Mathematics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC027",
+        "name": "Prof. Faculty 27",
+        "department": "Physics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC028",
+        "name": "Prof. Faculty 28",
+        "department": "Humanities",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC029",
+        "name": "Prof. Faculty 29",
+        "department": "Computer Science",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC030",
+        "name": "Prof. Faculty 30",
+        "department": "Humanities",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC031",
+        "name": "Prof. Faculty 31",
+        "department": "Mathematics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC032",
+        "name": "Prof. Faculty 32",
+        "department": "Mathematics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC033",
+        "name": "Prof. Faculty 33",
+        "department": "Computer Science",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC034",
+        "name": "Prof. Faculty 34",
+        "department": "Electrical",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC035",
+        "name": "Prof. Faculty 35",
+        "department": "Mathematics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC036",
+        "name": "Prof. Faculty 36",
+        "department": "Physics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC037",
+        "name": "Prof. Faculty 37",
+        "department": "Humanities",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC038",
+        "name": "Prof. Faculty 38",
+        "department": "Humanities",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC039",
+        "name": "Prof. Faculty 39",
+        "department": "Electrical",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC040",
+        "name": "Prof. Faculty 40",
+        "department": "Physics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC041",
+        "name": "Prof. Faculty 41",
+        "department": "Mathematics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC042",
+        "name": "Prof. Faculty 42",
+        "department": "Humanities",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC043",
+        "name": "Prof. Faculty 43",
+        "department": "Humanities",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC044",
+        "name": "Prof. Faculty 44",
+        "department": "Mathematics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC045",
+        "name": "Prof. Faculty 45",
+        "department": "Physics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC046",
+        "name": "Prof. Faculty 46",
+        "department": "Electrical",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC047",
+        "name": "Prof. Faculty 47",
+        "department": "Physics",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC048",
+        "name": "Prof. Faculty 48",
+        "department": "Humanities",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC049",
+        "name": "Prof. Faculty 49",
+        "department": "Electrical",
+        "max_invigilations": 3
+    },
+    {
+        "faculty_id": "FAC050",
+        "name": "Prof. Faculty 50",
+        "department": "Humanities",
+        "max_invigilations": 3
+    }
+]
