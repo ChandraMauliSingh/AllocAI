@@ -59,20 +59,27 @@ def sync_leaves_from_prompt(prompt: str) -> list[str] | None:
 
 # --- Header & Top KPIs ---
 st.title("🎓 AllocAI — Autonomous Exam, Seating & Invigilation System")
-st.caption("Hybrid OR-Tools (CP-SAT) Optimization • True Checkerboard Seating • Rank-Aware Invigilation • Local Llama 3.2")
+st.caption("Hybrid OR-Tools (CP-SAT) Optimization • Auto-Expanding Checkerboard Seating • Rank-Aware Invigilation • Local Llama 3.2")
 
 schedule_data = load_json("data/exam_schedule.json") or {}
 seating_data = load_json("data/master_seating_chart.json") or {}
 faculty_sched_data = load_json("data/faculty_schedule.json") or []
 leaves_data = load_json("data/leaves.json") or []
 faculty_master = load_json("data/faculty.json") or []
+students_master = load_json("data/students.json") or []
 
 total_fac_count = len(faculty_master) if faculty_master else 50
 active_fac_count = max(0, total_fac_count - len(leaves_data))
+total_exam_seats = sum(
+    len(courses) for courses in seating_data.values() if isinstance(courses, dict)
+)
+total_roster_students = len(students_master) if students_master else len(seating_data)
 
 k1, k2, k3, k4 = st.columns(4)
 k1.metric("Scheduled Courses", len(schedule_data))
-k2.metric("Students Seated", len(seating_data))
+with k2:
+    st.metric("Students Seated", f"{len(seating_data)} / {total_roster_students}")
+    st.caption(f"{total_exam_seats:,} total exam seats")
 k3.metric("Active Faculty", active_fac_count)
 k4.metric("Faculty on Leave", len(leaves_data))
 
@@ -115,7 +122,6 @@ if page == "💬 Admin Assistant Chat":
             with st.spinner("Running AllocAI engines..."):
                 leave_result = sync_leaves_from_prompt(user_prompt)
 
-                # If user only asked about leave/return without rebuilding full timetable, refresh invigilation immediately
                 q_low = user_prompt.lower()
                 only_leave_change = (leave_result is not None) and not any(
                     w in q_low for w in ["timetable", "time table", "schedule", "fresh", "rebuild", "remake", "generate"]
@@ -134,19 +140,21 @@ if page == "💬 Admin Assistant Chat":
                     try:
                         res = agents.agent_executor.invoke({"input": user_prompt})
                         response = res.get("output", "Completed.")
+                        # Re-run seating & invigilation so auto-slot expansion and hierarchy caps are always applied
+                        generate_roll_number_seating()
+                        assign_invigilators()
                         if leave_result is not None:
-                            # Ensure invigilation reflects the updated leaves.json
-                            assign_invigilators()
                             response += f"\n\n**Current Faculty on Leave:** `{', '.join(leave_result) if leave_result else 'None'}`"
-                    except Exception as e:
+                    except Exception:
                         if leave_result is not None:
+                            generate_roll_number_seating()
                             assign_invigilators()
                             response = (
                                 f"✅ Updated `data/leaves.json` (`{', '.join(leave_result) if leave_result else 'None'}`) "
                                 f"and refreshed invigilation schedule."
                             )
                         else:
-                            response = f"⚠️ Agent hit an iteration/parsing limit. Please try a shorter query (e.g., *'Where is STU001?'*)."
+                            response = "⚠️ Agent hit an iteration/parsing limit. Please try a shorter query (e.g., *'Where is STU001?'*)."
 
             st.markdown(response)
             st.session_state.messages.append({"role": "assistant", "content": response})
@@ -184,7 +192,6 @@ elif page == "🪑 Room-Wise & Student Seating":
     if not seating_data:
         st.info("Seating chart not generated yet.")
     else:
-        # Flatten student seating into tabular rows
         student_rows = []
         for stu_id, courses in seating_data.items():
             for course_id, seat_info in courses.items():
@@ -204,7 +211,6 @@ elif page == "🪑 Room-Wise & Student Seating":
 
         tab1, tab2 = st.tabs(["👤 Student-Wise Seating Table", "🏫 Room-Wise Seating Plan (Table & Grid)"])
 
-        # --- TAB 1: STUDENT-WISE TABLE ---
         with tab1:
             search_stu = st.text_input("Search Student ID (e.g., STU001) or leave blank to view all").strip().upper()
             if search_stu:
@@ -218,7 +224,6 @@ elif page == "🪑 Room-Wise & Student Seating":
             with st.expander("View All Students Seating Table"):
                 st.dataframe(df_all_seats, width="stretch", hide_index=True)
 
-        # --- TAB 2: ROOM-WISE TABLE + VISUAL SEAT MATRIX ---
         with tab2:
             slots_available = sorted(df_all_seats["Time Slot"].dropna().unique().tolist())
             selected_slot = st.selectbox("Select Time Slot", options=slots_available)
@@ -249,6 +254,13 @@ elif page == "🪑 Room-Wise & Student Seating":
                 )
                 st.dataframe(grid_df, width="stretch")
 
+                # Occupancy bar chart across rooms in the selected slot
+                st.markdown(f"**Seat Occupancy Across Rooms in {selected_slot}**")
+                occ_chart = slot_df.groupby("Room Name", as_index=False)["Student ID"].count().rename(
+                    columns={"Student ID": "Seated Students"}
+                )
+                st.bar_chart(occ_chart.set_index("Room Name"))
+
         if os.path.exists("data/master_seating_chart.xlsx"):
             with open("data/master_seating_chart.xlsx", "rb") as f:
                 st.download_button("📥 Download Complete Seating Chart (Excel)", f, file_name="master_seating_chart.xlsx")
@@ -259,10 +271,9 @@ elif page == "🪑 Room-Wise & Student Seating":
 elif page == "👨‍🏫 Faculty Hierarchy & Leaves":
     st.subheader("👨‍🏫 Faculty Invigilation Roster, Rank Hierarchy & Leave Manager")
     st.markdown(
-        "**Duty Hierarchy:** `Assistant Professor` (highest duty load) → `Associate Professor` (moderate load) → `Professor` (lowest duty load)."
+        "**Duty Hierarchy:** `Assistant Professor` (highest duty cap) → `Associate Professor` (moderate duty cap) → `Professor` (lowest duty cap)."
     )
 
-    # Interactive Leave Controls
     c1, c2, c3 = st.columns([2, 2, 1])
     fac_options = [f["faculty_id"] for f in faculty_master] if faculty_master else [f"FAC{i:03d}" for i in range(1, 51)]
 
@@ -293,6 +304,7 @@ elif page == "👨‍🏫 Faculty Hierarchy & Leaves":
             assign_invigilators()
             st.rerun()
 
+    current_leaves = load_json("data/leaves.json") or []
     st.info(f"**Active Leave List (`data/leaves.json`):** `{', '.join(current_leaves) if current_leaves else 'None'}`")
 
     if faculty_sched_data:
@@ -308,6 +320,7 @@ elif page == "👨‍🏫 Faculty Hierarchy & Leaves":
                         "Designation": inv.get("designation", ""),
                         "Department": inv.get("department", ""),
                         "Duties Assigned": inv.get("duties_assigned", ""),
+                        "Duty Cap": inv.get("duty_cap", ""),
                     }
                 )
         df_inv = pd.DataFrame(inv_rows)

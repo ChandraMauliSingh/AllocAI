@@ -56,34 +56,57 @@ def clear_faculty_leaves() -> list[str]:
     return []
 
 
-def _rank_duty_cap(fac: dict) -> int:
-    """
-    Hierarchy: Professor < Associate Professor < Assistant Professor.
-    Lower rank weight = fewer duties assigned.
-    """
-    designation = str(fac.get("designation", fac.get("rank", fac.get("role", "")))).lower()
-    base_max = int(fac.get("max_invigilations", 4))
+def _resolve_designation(fac: dict, index: int = 0, total: int = 1) -> str:
+    explicit = str(fac.get("designation") or fac.get("rank") or fac.get("role") or "").strip()
+    if explicit:
+        low = explicit.lower()
+        if "assistant" in low or "asst" in low:
+            return "Assistant Professor"
+        if "associate" in low or "assoc" in low:
+            return "Associate Professor"
+        if "professor" in low or "prof" in low:
+            return "Professor"
+        return explicit
 
-    if "assistant" in designation:
-        rank_cap = max(1, base_max)
-    elif "associate" in designation:
-        rank_cap = max(1, base_max - 1)
-    elif "professor" in designation or "prof" in designation:
-        rank_cap = max(1, base_max - 2)
+    name_low = str(fac.get("name", "")).lower()
+    if "assistant" in name_low or "asst" in name_low:
+        return "Assistant Professor"
+    if "associate" in name_low or "assoc" in name_low:
+        return "Associate Professor"
+
+    # Deterministic hierarchy fallback when faculty.json only lists generic names/caps:
+    # Professors get fewer duties than Associate & Assistant Professors.
+    if total <= 1:
+        return "Assistant Professor"
+    ratio = index / total
+    if ratio < 0.5:
+        return "Assistant Professor"
+    elif ratio < 0.8:
+        return "Associate Professor"
     else:
-        rank_cap = max(1, base_max)
-
-    return min(base_max, rank_cap)
+        return "Professor"
 
 
-def _rank_priority_order(fac: dict) -> int:
-    """Assistant (0) -> Associate (1) -> Professor (2) so senior professors are spared first."""
-    designation = str(fac.get("designation", fac.get("rank", fac.get("role", "")))).lower()
-    if "assistant" in designation:
+def _rank_duty_cap(fac: dict, designation: str) -> int:
+    base_max = int(fac.get("max_invigilations", 3))
+    desig_low = designation.lower()
+
+    if "assistant" in desig_low or "asst" in desig_low:
+        return max(1, base_max)
+    if "associate" in desig_low or "assoc" in desig_low:
+        return max(1, base_max - 1)
+    if "professor" in desig_low or "prof" in desig_low:
+        return max(1, base_max - 2)
+    return max(1, base_max)
+
+
+def _rank_priority_order(designation: str) -> int:
+    desig_low = designation.lower()
+    if "assistant" in desig_low or "asst" in desig_low:
         return 0
-    if "associate" in designation:
+    if "associate" in desig_low or "assoc" in desig_low:
         return 1
-    if "professor" in designation or "prof" in designation:
+    if "professor" in desig_low or "prof" in desig_low:
         return 2
     return 1
 
@@ -107,19 +130,28 @@ def assign_invigilators():
         rooms = {r["room_id"]: r for r in json.load(f)}
 
     leaves = _load_leaves()
-    active_faculty = [fac for fac in faculty_list if fac["faculty_id"] not in leaves]
+    total_fac = len(faculty_list)
+    active_faculty = []
+
+    for idx, fac in enumerate(faculty_list):
+        if fac["faculty_id"] not in leaves:
+            fac_copy = dict(fac)
+            resolved_desig = _resolve_designation(fac_copy, index=idx, total=total_fac)
+            fac_copy["_designation"] = resolved_desig
+            fac_copy["_duty_cap"] = _rank_duty_cap(fac_copy, resolved_desig)
+            active_faculty.append(fac_copy)
 
     # Sort so Assistant Professors are picked before Associates, and Professors last
     active_faculty = sorted(
         active_faculty,
-        key=lambda fac: (_rank_priority_order(fac), fac["faculty_id"])
+        key=lambda fac: (_rank_priority_order(fac["_designation"]), fac["faculty_id"])
     )
 
     if not active_faculty:
         print("❌ No active faculty available after applying leaves!")
         return
 
-    duty_caps = {fac["faculty_id"]: _rank_duty_cap(fac) for fac in active_faculty}
+    duty_caps = {fac["faculty_id"]: fac["_duty_cap"] for fac in active_faculty}
     faculty_duty_counts = {fac["faculty_id"]: 0 for fac in active_faculty}
     faculty_busy_slots = {fac["faculty_id"]: set() for fac in active_faculty}
 
@@ -167,11 +199,10 @@ def assign_invigilators():
                 f_id = picked["faculty_id"]
                 faculty_duty_counts[f_id] += 1
                 faculty_busy_slots[f_id].add(slot)
-                designation = picked.get("designation", picked.get("rank", "Faculty"))
                 assigned_to_room.append({
                     "faculty_id": f_id,
                     "name": picked["name"],
-                    "designation": designation,
+                    "designation": picked["_designation"],
                     "department": picked["department"],
                     "duties_assigned": faculty_duty_counts[f_id],
                     "duty_cap": duty_caps[f_id]
